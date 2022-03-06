@@ -1,0 +1,36 @@
+p{
+    background-color: #aaa;
+    margin-bottom: 20px;
+    /* display: inline; 不分區塊，前後段落連接再一起 */
+    /* display: inline-block; 前後段落分區塊排列 */
+}
+
+a{
+    background-color: yellow;;
+}
+  .p{
+    color:blue
+  }
+  .q{
+    color: violet;
+  }
+  #shark{
+    color: greenyellow;
+  }
+  #tank{
+    color: yellowgreen;
+  }
+  .wrap{
+    background-color: #ccc;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item{
+      background-color: #fa0;
+      width: 300px;
+      font-size: 40px;
+      margin: 5px;
+      padding: 5px;
+      text-align: right;
+  }
