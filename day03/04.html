@@ -15,6 +15,7 @@
             flex-wrap: wrap;   /*交叉軸換行方向*/
             align-items: center; /*控制flex子物件在彈性列中交叉軸的位置*/
             align-content: stretch; 
+            justify-content: center; /*物件在主軸上的位置*/
             /*控制彈性列在交叉軸的位置*/
             /* writing-mode: vertical-lr; */
             /* justify-content: space-evenly; */
@@ -37,16 +38,23 @@
         .item:nth-child(5){
             height: 170px;
         }
+        .i4{
+            order: -1;
+        }
+        .i3{
+            order: 1;
+            align-self: flex-end;
+        }
     </style>
 </head>
 <body > 
     <div class="wrap">
-        <div class="item">1中文</div>
-        <div class="item">2中文</div>
-        <div class="item">3中文</div>
-        <!-- <div class="item">4中文</div>
-        <div class="item">5中文</div>
-       -->
+        <div class="item i1">1中文</div>
+        <div class="item i2">2中文</div>
+        <div class="item i3">3中文</div>
+        <div class="item i4">4中文</div>
+        <div class="item i5">5中文</div>
+      
        
 
     </div>
