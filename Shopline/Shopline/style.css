@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 2;
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.headblack {
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50px;
+    align-items: center;
+}
+.headblack a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+.headblack block {
+    height: 30px;
+    border-right: 0.05px solid white;
+}
+.headblack img {
+    height: 40%;
+    margin: 20px;
+}
+.icon {
+    color: white;
+    height: 40%;
+    margin: 20px;
+}
+nav {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+nav div {
+    align-items: center;
+}
+nav div img {
+    height: 30px;
+    padding: 10px;
+}
+nav div ul {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+nav a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: gray;
+}
+.topbutton {
+    color: white;
+    background-color: #0061ff;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+.topbutton2 {
+    color: white;
+    background-color: #0061ff;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 30px;
+    font-size: 80%;
+    text-decoration: none;
+    display: inline-block;
+    align-self: center;
+}
+section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* align-items: center;
+    justify-content: space-around; */
+    /* margin: 50px; */
+}
+{
+    line-height: 2;
+}
+
+.top-h1 {
+    color: white;
+    font-size: 250%;
+    /* padding: 10px 20px ; */
+    /* background-color: gray; */
+    margin: 10px 0px;
+}
+.top-p {
+    color: white;
+    /* padding: 10px 20px; */
+    margin: 10px 0px;
+}
+.top-section-txt {
+    margin: 0px 50px;
+    width: 50%;
+
+    padding: 60px;
+}
+.top-section-pic {
+    padding: 30px;
+}
+section div div {
+    display: flex;
+    justify-content: flex-start;
+    /* margin-left: 0px; */
+    margin: 10px 0px;
+}
+.input-class {
+    border: 0;
+    background-color: transparent;
+    width: 200px;
+    /* padding: 20px; */
+    border: 0px;
+    border-bottom: 0.1px solid white;
+}
+.top-section {
+    height: 700px;
+    background-image: url('first_section_background.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section2 {
+    height: 250px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.section2 div {
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+.section2 div div {
+    margin: 30px;
+}
+
+.sectionlist {
+    /* background-color: gray; */
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sectionlist:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.sectionlist h1 {
+    line-height: 1.5;
+}
+.sectionlist p {
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sectionlist li {
+    line-height: 2;
+}
+
+.listtext {
+    width: 50%;
+    height: 300px;
+    padding: 60px;
+}
+.pic {
+    padding: 60px;
+    /* width: 100%; */
+    /* height:100% */
+}
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+.sectionlist ul {
+    columns: 2;
+}
+.link {
+    margin-top: 30px;
+}
+.link a {
+    text-decoration: none;
+    color: #0061ff;
+}
+.section-function {
+    background-color: #F4F5F7;
+    flex-direction: column;
+    padding: 60px 0px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.function-list {
+    columns: 3;
+    width: 100%;
+    /* margin: 30px; */
+    
+}
+.function-item {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    /* justify-content: space-around; */
+}
+.img-wrap {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgb(36 50 66 / 20%);
+    justify-content: center;
+    align-items:center ;
+}
+.section-recommend{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 60px 0px; 
+    align-items: center;
+    justify-content: space-around;
+}
+.img {
+    width: 60%;
+    height: 60%;
+}
+.imglist{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 80%;
+    justify-content: center;
+}
+.img-wrap2{
+    width: 150px;
+    height: 100px;
+    margin: 0px 30px ;
+    justify-content: center;
+    align-items: center;
+}
+.img-wrap3{
+    width: 100%;
+    height: auto;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    /* max-width: 75%; */
+    max-height: 75%;
+    width: 100%;
+    height: auto;
+}
+.img3{
+    width: 100%;
+    height: 100%;
+    /* object-fit: fill; */
+}
+.recommend-textimg {
+    display: flex;
+    width: 80%;
+    
+}
+.recommend-text{
+    flex-direction: column;
+}
+.last-section {
+    z-index: -4;
+    height: 400px;
+    background:url('last_section_background.png') no-repeat -450px -55px/auto 360px #172B4D;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+}
+.last-section-wrap {
+    padding: 30px 40px;
+
+}
+.last-section h1{
+    color: white;
+    font-size: 2.5em;
+    
+}
+.last-section h1 span{
+    position: relative;
+    z-index: 1;
+}
+.last-section h1 span::before{
+    content: '';
+    width: 100%;
+    height: 20px;
+    background-color: #0061ff;
+    position: absolute;
+    /* bottom:15px; 
+    left:0;  */
+    top: 15px;
+    z-index: -1;
+    
+}
+.lastbutton {
+    color: white;
+    background-color: #0061ff;
+    width:400px;
+    height: 40px;
+    border-radius: 30px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.footer-section{
+    width: 100%;
+    height: 600px;
+    background-color: #00142D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section-wrap{
+    background-color: #0061ff;
+    width: auto;
+    padding: 50px;
+}
