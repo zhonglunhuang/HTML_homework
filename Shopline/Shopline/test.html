@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .header{
+            font-size: 100px;
+            height: 200px;
+            background-color: #ccc;
+            position: sticky;
+            top:0 ;
+            z-index: 3;
+        }
+        .header2{
+            font-size: 100px;
+            height: 200px;
+            width: 100%;
+            background-color: red;
+            position: absolute;
+            top:200px ;
+            z-index: 2;
+        }
+        .header3{
+            font-size: 100px;
+            height: 200px;
+            background-color: green;
+            position: sticky;
+            top:200px ;
+            z-index: 1;
+        }
+        .footer{
+            font-size: 100px;
+            background-color: #ccc;
+            height: 1200px;
+        }
+        .main{
+            width: 960px;
+            margin: auto;
+            display: flex;
+            /* align-items: flex-end; */
+            
+        }
+        .left{
+            width: 200px;
+            flex-shrink: 0;
+            background-color: #faf;
+           
+        }
+        .right{
+            background-color: #fa0;
+        }
+        .box{
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            height: 200px;
+        }
+        .box1{
+            background-color: #f00;
+            position: sticky;
+            bottom: -20px;
+        }
+        .box2{
+            background-color: #00f;
+            position: sticky;
+            top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">header1</div>
+    <div class="header2">header2</div>
+    <div class="header3">header3</div>
+    <div class="main">
+        <div class="left">
+            <div class="box box1">box1</div>
+            <!-- <div class="box box2">box2</div> -->
+        </div>
+        <div class="right">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cum laudantium numquam ex. Quis aspernatur tempore iusto aliquid laborum aliquam architecto placeat est ipsum blanditiis inventore doloribus illo, quibusdam obcaecati!</p>
+            <p>Aut modi iste est assumenda sequi, quo vitae ratione similique officiis corrupti, facilis temporibus eos porro saepe sunt reiciendis accusantium optio et in, dolor voluptates. Perspiciatis dignissimos iste quaerat commodi?</p>
+            <p>Repudiandae, quos. Ad minus sequi nulla consequuntur alias sapiente natus reiciendis iure iste aliquam voluptatum a modi totam possimus, temporibus nesciunt aspernatur! Eaque ipsa tenetur praesentium, sint fugit veniam expedita.</p>
+            <p>Et sed maxime molestias mollitia doloremque qui placeat error assumenda, repudiandae repellat, eveniet nulla, blanditiis in eligendi beatae dolores officia illo inventore omnis. Quo ullam molestiae omnis pariatur, et voluptatibus.</p>
+            <p>Vitae quis doloribus eos dolores incidunt fugiat dignissimos, fugit dicta, possimus est numquam eius debitis accusantium ratione sed dolor voluptatum tempora dolorem itaque totam nostrum ad veritatis consequatur provident. Nam?</p>
+            <p>Dolores repellendus tempora illo provident nemo animi optio odio architecto facere perferendis officia autem, nostrum cum voluptates culpa unde hic dolore molestiae molestias qui? Voluptas dolor obcaecati explicabo tempore voluptates.</p>
+            <p>Enim eos impedit ipsum praesentium tempore mollitia ipsam fugit provident tempora, distinctio temporibus! Corporis, earum doloribus, ducimus, repudiandae placeat ea rem eaque voluptatem tempora deserunt quod molestiae in eum ipsa.</p>
+            <p>Laudantium natus distinctio perspiciatis voluptatum illo, aut, saepe ullam veritatis, facilis nam consequuntur. Ducimus deleniti, eaque dolore, fugit voluptatem minima nobis unde officia soluta excepturi illum? Optio accusamus enim quasi.</p>
+            <p>Voluptate, labore corrupti laboriosam aperiam exercitationem nam at quidem inventore fugit culpa perferendis harum pariatur sunt. Delectus soluta totam ipsa. Placeat optio temporibus corrupti ut ea aperiam deleniti deserunt eligendi.</p>
+            <p>Optio, expedita. Nisi aspernatur soluta reiciendis! Dicta non unde minima accusantium, natus, maiores facere eaque enim, odio culpa hic voluptas quisquam distinctio impedit in necessitatibus facilis consectetur earum ad qui?</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="left">
+            <div class="box box1">box1</div>
+            <!-- <div class="box box2">box2</div> -->
+        </div>
+        <div class="right">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cum laudantium numquam ex. Quis aspernatur tempore iusto aliquid laborum aliquam architecto placeat est ipsum blanditiis inventore doloribus illo, quibusdam obcaecati!</p>
+            <p>Aut modi iste est assumenda sequi, quo vitae ratione similique officiis corrupti, facilis temporibus eos porro saepe sunt reiciendis accusantium optio et in, dolor voluptates. Perspiciatis dignissimos iste quaerat commodi?</p>
+            <p>Repudiandae, quos. Ad minus sequi nulla consequuntur alias sapiente natus reiciendis iure iste aliquam voluptatum a modi totam possimus, temporibus nesciunt aspernatur! Eaque ipsa tenetur praesentium, sint fugit veniam expedita.</p>
+            <p>Et sed maxime molestias mollitia doloremque qui placeat error assumenda, repudiandae repellat, eveniet nulla, blanditiis in eligendi beatae dolores officia illo inventore omnis. Quo ullam molestiae omnis pariatur, et voluptatibus.</p>
+            <p>Vitae quis doloribus eos dolores incidunt fugiat dignissimos, fugit dicta, possimus est numquam eius debitis accusantium ratione sed dolor voluptatum tempora dolorem itaque totam nostrum ad veritatis consequatur provident. Nam?</p>
+            <p>Dolores repellendus tempora illo provident nemo animi optio odio architecto facere perferendis officia autem, nostrum cum voluptates culpa unde hic dolore molestiae molestias qui? Voluptas dolor obcaecati explicabo tempore voluptates.</p>
+            <p>Enim eos impedit ipsum praesentium tempore mollitia ipsam fugit provident tempora, distinctio temporibus! Corporis, earum doloribus, ducimus, repudiandae placeat ea rem eaque voluptatem tempora deserunt quod molestiae in eum ipsa.</p>
+            <p>Laudantium natus distinctio perspiciatis voluptatum illo, aut, saepe ullam veritatis, facilis nam consequuntur. Ducimus deleniti, eaque dolore, fugit voluptatem minima nobis unde officia soluta excepturi illum? Optio accusamus enim quasi.</p>
+            <p>Voluptate, labore corrupti laboriosam aperiam exercitationem nam at quidem inventore fugit culpa perferendis harum pariatur sunt. Delectus soluta totam ipsa. Placeat optio temporibus corrupti ut ea aperiam deleniti deserunt eligendi.</p>
+            <p>Optio, expedita. Nisi aspernatur soluta reiciendis! Dicta non unde minima accusantium, natus, maiores facere eaque enim, odio culpa hic voluptas quisquam distinctio impedit in necessitatibus facilis consectetur earum ad qui?</p>
+        </div>
+    </div>
+    <div class="footer">footer</div>
+</body>
+</html>

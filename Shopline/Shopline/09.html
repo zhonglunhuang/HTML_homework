@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            background-color: #ccc;
+            font-size: 50px;
+        }
+        .box1:hover{
+            background-color: #f00;
+            transform: scale(1.5);
+        }
+        .card {
+            width: 300px;
+            border:1px solid #000;
+        }
+        .card img{
+            vertical-align: middle;
+            transform: scale(1);
+            transition: 1s;
+        }
+        .pic{
+            overflow: hidden;
+        }
+        .card:hover img{
+            transform: scale(2);
+        }
+        .t1{
+            transition:1s;
+            transform: scale(1);
+            text-align: center;
+        }
+        .t1:hover{
+            color: blue;
+            transform: scale(2);
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">box1</div>
+    <div class="box">box2</div>
+    <div class="card">
+        <div class="pic">
+            <img src="https://picsum.photos/300/200/?random=10">
+        </div>
+        <h1 class="t1">tittle</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum iste est nihil obcaecati, impedit quasi maxime esse, ut aliquid, molestias minus doloremque ratione commodi pariatur neque fugiat nulla ipsum assumenda.</p>
+    </div>
+</body>
+</html>
