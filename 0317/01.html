@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+     *{
+         padding: 0;
+         margin: 0;
+     }
+     .main-nav > ul {
+        display: flex;
+      }
+      .main-nav li{
+        list-style: none;
+        position: relative;
+      }
+      .main-nav a{
+          display: block;
+          padding: 10px 30px;
+          background-color: #fa0;
+      }
+      .main-nav > ul > li > a::after{ 
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 3px;
+          left:0;
+          bottom: 0;
+          background-color: aqua;
+          transform-origin: right center;
+          background-color: blue;
+          transition: .2s;
+          transform: scaleX(0);
+      }
+      .main-nav >ul >li:hover > a::after{
+          transform: scaleX(1);
+      }
+      .main-nav li:hover > a{
+          background-color: #f00;
+      }
+      .main-nav .sub-nav{
+          display: none;
+          position: absolute;
+      }
+      .main-nav li:hover > .sub-nav{
+          display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="main-nav">
+      <ul>
+        <li>
+          <a href="#">Link</a>
+          <ul class="sub-nav">
+            <li><a href="">sub link1
+                <ul class="sub-nav">
+                    <li><a href="">sub link1-1</a></li>
+                    <li><a href="">sub link1-1</a></li>
+                    <li><a href="">sub link1-1</a></li>
+                    <li><a href="">sub link1-1</a></li>
+                  </ul>
+            </a></li>
+            <li><a href="">sub link1</a></li>
+            <li><a href="">sub link1</a></li>
+            <li><a href="">sub link1</a></li>
+          </ul>
+        </li>
+        <li>
+            <a href="#">Link</a>
+          <ul class="sub-nav">
+            <li><a href="">sub link2</a></li>
+            <li><a href="">sub link2</a></li>
+            <li><a href="">sub link2</a></li>
+            <li><a href="">sub link2</a></li>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
