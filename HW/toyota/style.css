@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sec{
+    width: 80%;
+    margin: 10% 10%;
+    /* padding: 10% 10%; */
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.pic {
+    width: 65%;
+    margin-left: 25%;
+    position: relative;
+}
+.main-img {
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+}
+.yt-icon {
+    width: 7.5%;
+    position: absolute;
+    top: 42.5%;
+    right: -2.5%;
+
+}
+/* .main-img::after {   //瀏覽器不支援img加偽元素
+    content: "";
+    position: absolute;
+    background-image: url("/HW/video-icon.png");
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    right: 10px;
+    top: 50%;
+    z-index: 10;
+    display: block;
+} */
+.title-pic{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100%;
+    bottom: -200px;
+    left: 5%;
+    z-index: 1;
+}
+.red-bg {
+    background-color: #BB0404;
+    width: 100%;
+    height: 80px;
+    top: 50%;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 2.5em;
+    
+}
+
+.black-bg{
+    background-color: black;
+    width: 80%;
+    height: 200px;
+    padding: 10%;
+}
+.black-bg > p > span {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+.black-bg p {
+    color: white;
+}
+.gray-bg {
+    width: 65%;
+    background-color: #eee;
+    position: relative;
+    top: -30px;
+    left: 10%;
+    padding: 2.5%;
+}
+
+.gray-layer-bg {
+    position: absolute;
+    width: 50%;
+    background-color: #eee;
+    height: 200px;
+    right: -50px;
+    top: -100px;
+    z-index: -1;
+}
+li{
+    list-style: none;
+}
+.red-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.red-word {
+    color: #BB0404;
+    line-height: 2em;
+    font-weight: bold;
+}
+.red-line {
+    width: 65%;
+    height: 0;
+    border:1.5px solid #BB0404;
+    margin: 0 2.5%;
+}
+
+.black-title{
+    background-color: black;
+    color: white;
+    display: inline;
+    line-height: 1.5em;
+    padding: 2.5px;
+}
+.gray-word {
+    left: 20px;
+    position: relative;
+}
+.gray-word::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    left: -10px;
+    top: 8px;
+}
+
+.title-pic-odd{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    align-self: flex-end;
+    top: 100%;
+    bottom: -200px;
+    margin-right : 5%;
+    z-index: 1;
+}
+
+.pic-odd {
+    width: 65%;
+    margin-left: 10%;
+    position: relative;
+}
+
+.gray-bg-odd {
+    width: 65%;
+    background-color: #eee;
+    position: relative;
+    top: -30px;
+    left: 20%;
+    padding: 2.5%;
+}
+
+.yt-icon-odd{
+    width: 7.5%;
+    position: absolute;
+    top: 42.5%;
+    left: -2.5%;
+}
+

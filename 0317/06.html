@@ -1,52 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        :root{
-            --QQ : 100px;
-            --PP : 10px;
-            --TT : gray; 
-
-        }
-        .papa{
-            --jon:red;
-            border: 1px solid green;
-        }
-        .box{
-            --ooxx: blue;
-            width: 300px;
-            height: 300px;
-            font-size: 50px;
-            background-color: var(--jon);
-
-        }
-        .box1{
-            width: calc(var(--QQ) - 20px);
-            height: var(--PP);
-            background-color: var(--TT);
-            border: 1px solid greenyellow;
-        }
-        .box2{
-            width: var(--QQ);
-            height: var(--PP);
-            background-color: var(--TT);
-            border: 1px solid gold;
-        }
-    </style>
-</head>
-<body>
-    <div class="papa">
-        <div class="box">
-            box
-    </div>
-</div>
-<div class="box1"></div>
-<div class="box2"></div>
-
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            :root {
+                --QQ: 100px;
+                --PP: 10px;
+                --TT: gray;
+            }
+            .papa {
+                --jon: red;
+                border: 1px solid green;
+            }
+            .box {
+                --ooxx: blue;
+                width: 300px;
+                height: 300px;
+                font-size: 50px;
+                background-color: var(--jon);
+            }
+            .box1 {
+                width: calc(var(--QQ) - 20px);
+                height: var(--PP);
+                background-color: var(--TT);
+                border: 1px solid greenyellow;
+            }
+            .box2 {
+                width: var(--QQ);
+                height: var(--PP);
+                background-color: var(--TT);
+                border: 1px solid gold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="papa">
+            <div class="box">box</div>
+        </div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </body>
 </html>
