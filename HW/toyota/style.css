@@ -51,7 +51,7 @@
     flex-direction: column;
     position: relative;
     top: 100%;
-    bottom: -200px;
+    bottom: -260px;
     left: 5%;
     z-index: 1;
 }
@@ -121,9 +121,10 @@ li{
 .black-title{
     background-color: black;
     color: white;
-    display: inline;
+    width: fit-content;
+    /* display: inline; */
     line-height: 1.5em;
-    padding: 2.5px;
+    padding: 0.5em;
 }
 .gray-word {
     left: 20px;

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background-color: #ccc;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding: 10px;
+                position: relative;
+            }
+            .logo {
+                width: 80px;
+                height: 40px;
+            }
+            .hb {
+                width: 40px;
+                height: 40px;
+                background-color: red;
+            }
+            #menu-switch {
+                display: none;
+            }
+            #menu-switch:checked ~ header nav {
+                display: block;
+            }
+            nav {
+                width: 100%;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: orange;
+                display: none;
+            }
+            nav a {
+                display: block;
+                text-align: center;
+            }
+
+            @media screen and (min-width: 500px) {
+                .hb {
+                    display: none;
+                }
+                nav {
+                    width: auto;
+                    position: relative;
+                    top: auto;
+                    left: auto;
+                    background-color: transparent;
+                    display: flex;
+                    align-items: center;
+                }
+                nav a {
+                    /* display: block; */
+                    text-align: center;
+                    padding: 0px 10px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <input type="checkbox" name="" id="menu-switch" />
+        <header>
+            <div class="logo">
+                <img src="https://picsum.photos/80/40/?random=10" />
+            </div>
+            <label for="menu-switch" class="hb"></label>
+            <nav>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+            </nav>
+        </header>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus animi modi voluptatum excepturi
+            nostrum, error eligendi aliquid harum omnis enim soluta dolores perspiciatis officia sapiente iste eaque,
+            ipsa eveniet ut.
+        </p>
+        <p>
+            At optio enim praesentium distinctio voluptatem consequatur culpa autem, saepe non, officia odio, sapiente
+            aspernatur quae beatae accusamus maxime ducimus voluptatum quidem. Rerum, velit aliquid et nulla obcaecati
+            ullam libero?
+        </p>
+        <p>
+            Dolorem reprehenderit magni culpa similique? Alias sapiente totam molestias blanditiis consectetur omnis
+            ipsam odit explicabo voluptates doloremque dolores, iure minima vitae numquam. Dicta doloribus enim corrupti
+            magni mollitia sequi modi.
+        </p>
+        <p>
+            Quam odio a sint fugiat dolor consequatur, recusandae cum saepe impedit? Nulla perspiciatis dolor culpa
+            labore blanditiis! Officiis, velit error inventore nobis facere ea deleniti rerum. Alias illo sapiente vero!
+        </p>
+        <p>
+            Harum pariatur ratione dolor laboriosam a corporis nesciunt rem at itaque, ex sed eos libero ullam corrupti,
+            ipsa eius fuga numquam, nobis perspiciatis. Aliquam ab rem atque minus voluptas reprehenderit.
+        </p>
+        <p>
+            Non enim neque obcaecati qui sunt exercitationem quae molestiae voluptate, eveniet soluta fuga, sit incidunt
+            voluptatibus illo id unde accusamus amet voluptas, eius deleniti. Error cumque ratione autem deleniti
+            dolorum.
+        </p>
+        <p>
+            Laudantium est nam adipisci facere, provident asperiores perspiciatis labore ab cupiditate laboriosam iste
+            eaque pariatur eveniet reprehenderit quasi? Vitae, obcaecati deleniti ratione aut quasi magnam repellat hic
+            nostrum cum recusandae?
+        </p>
+        <p>
+            Sapiente excepturi reprehenderit, amet doloremque vero minima fugiat magni deserunt mollitia, delectus sunt
+            aperiam harum natus modi rem expedita molestias fuga aspernatur facilis impedit veritatis ea. Quasi a
+            laboriosam soluta.
+        </p>
+        <p>
+            Sint amet a veritatis ea quibusdam, vel laboriosam, repudiandae excepturi beatae at commodi recusandae
+            cumque! Velit inventore ea quia a amet, tempore architecto unde culpa distinctio, praesentium
+            exercitationem, voluptatum atque.
+        </p>
+        <p>
+            Iure, laboriosam? Animi, dolorum tempora temporibus corrupti illo dolorem similique error? Officiis eaque
+            quidem molestias eligendi consectetur nulla maiores similique ea nisi dolores debitis ducimus, asperiores at
+            aliquam obcaecati explicabo.
+        </p>
+    </body>
+</html>
