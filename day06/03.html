@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes amos {
+            0%{ left:0;top:0;background-color: green;}
+            16%{left:0;top:100px;}
+            32%{left:100px;top:100px;background-color: aqua;}
+            48%{left:100px;top:0px;}
+            64%{left:200px;top:0px}
+            80%{left:200px;top:100px;background-color: blue;}
+            100%{left: 300px;top:100px;}
+            150%{left:500px;top:500px;background-color: gray;}
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: amos;
+            animation-duration: 1s ;
+            animation-delay: 3s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: ;
+            animation-fill-mode: backwards;
+            /* animation-play-state: paused; */
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
